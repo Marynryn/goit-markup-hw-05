@@ -806,23 +806,25 @@ font-family: "Roboto", sans-serif;
 }
 .icon-vector{
     border: 1px solid rgba(46, 47, 66, 0.4);
-        border-radius: 2px;
-        width: 16px;
-        height: 16px;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
     margin-right: 8px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
       fill:transparent;  
       transition: background-color var(--transition-timing-function), border var(--transition-timing-function), fill var(--transition-timing-function); 
 }
 .checkbox-input:checked + .checkbox-accept span {
 fill: #F4F4FD;
 background-color: #404BBF;
-    border: none;
+border: none;
    
  }  
+ .checkbox-input:focus + .checkbox-accept span {
+    border-color: #404bbf;
+}
 .policy{
     text-decoration: underline;
     color:#4D5AE5;
